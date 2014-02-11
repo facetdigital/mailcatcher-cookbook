@@ -1,0 +1,2 @@
+# Allow incoming mailcatcher HTTP connections
+-A FWR -m state --state NEW -m tcp -p tcp --dport 1080 -j ACCEPT
